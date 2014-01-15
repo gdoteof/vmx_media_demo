@@ -34,5 +34,5 @@ function toggle_pause(){
 }
 
 
-vmxApi('pausehand').onEnter(toggle_pause, null, {minTime:1000});
+vmxApi('pausehand').onEnter(toggle_pause, null, {minTime:4000});
 
