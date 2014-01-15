@@ -1,3 +1,10 @@
+console.log("VMX MEDIA DEMO LOADED");
+
+VMX.callback=function(detections){
+  //nothing
+  return;
+}
+
 function _run_bash(command, args, stdin, successCallback, failCallback){
   $.ajax({
       type: "POST",
